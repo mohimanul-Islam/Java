@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class FirstJavaProgram {
+    public static void main(String[] args) {
+        //swap variable
+        int a,b,temp;
+        System.out.println("Enter two values: ");
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        b = sc.nextInt();
+        temp = a;
+        a=b;
+        b=temp;
+        System.out.println("value of first variable is: "+a);
+        System.out.println("value of second variable is: "+b);
+    }
+}
