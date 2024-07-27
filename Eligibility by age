@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class FirstJavaProgram {
+    public static void main(String[] args) {
+        System.out.println("Please enter your age: ");
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        if(age>=21){
+            System.out.println("You are Eligable ");
+        }else{
+            System.out.println("You are not Eligable");
+        }
+    }
+}
