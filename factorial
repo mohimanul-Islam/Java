@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class FirstJavaProgram {
+    public static void main(String[] args) {
+        System.out.println("Enter the number to be factoreted");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int factorial = 1, i = 1;
+        while (a>=i){
+            factorial = factorial * i;
+            i++;
+        }
+        System.out.println("Factorial of "+i+" is "+factorial);
+    }
+}
